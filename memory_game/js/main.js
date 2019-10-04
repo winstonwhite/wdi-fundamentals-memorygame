@@ -1,8 +1,19 @@
 
-var cardOne = "queen";
-var cardTwo = "king";
-var cardThree = "queen";
-var cardFour = "king";
+var cards=["queen", "queen", "king", "king"]
 
-console.log("User flipped" + cardOne);
-console.log("User flipped" + cardThree);
+var cardsInPlay=[];
+
+var cardOne=[1];
+
+cardsInPlay.push("queen");
+
+console.log("User flipped queen");
+
+
+
+
+
+
+
+
+
