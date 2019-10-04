@@ -3,29 +3,34 @@ var cards=["queen", "queen", "king", "king"]
 
 var cardsInPlay=[];
 
-var cardOne=[0];
+function checkForMath(){
 
-cardsInPlay.push("queen");
+	if(cardsInPlay.length===2){
 
-console.log("User flipped queen");
-
-var cardTwo=[4];
-
-cardsInPlay.push("king");
-
-console.log("User flipped king");
-
-if(cardsInPlay.length===2){
-
-    alert("You found a match!");
+    console.log("You found a match!");
   
- } else if (cardsInPlay[0]===cardsInPlay[2]){
+   } else if (cardsInPlay[0]===cardsInPlay[2]){
     
-     alert("Sorry, try again.");
+     console.log("Sorry, try again.");
+  }
+
 }
 
+checkForMath()
 
 
+function flipCard(cardID){
+
+cardsInPlay.push(cards[cardID]);
+
+flipcard(0);
+flipcard(2);
+
+console.log(cards[cardID]);
+
+
+
+}
 
 
 
