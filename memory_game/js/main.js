@@ -2,11 +2,11 @@ var cards = ["queen", "queen", "king", "king"];
 
 var cardsInplay = [];
 
-var cardOne = "queen";
+var cardOne = cards[0];
 cardsInplay.push(cardOne);
 console.log("User flipped " + cardOne);
 
-var cardTwo = "king";
+var cardTwo = cards[2];
 cardsInplay.push(cardTwo);
 console.log("User flipped " + cardTwo);
 
